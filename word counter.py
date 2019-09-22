@@ -10,7 +10,7 @@ for i in range(n): #uses the n value gathered above. N value tells for loop how 
     print(x) #prints the word counts inserted into list (x)
 else: #when the range is finished the program moves onto this section
     print('total is', sum(x)) # adds the values in list (x) and prints out the result.
-    print('I have to write...', sum(x) - 7200, 'words') #7200 is the told word count of Features. Subtracting 7200 from the told of the list (x) will give me a 'leftover' word count (what I have to contribute to my section)
+    print('I have to write...', sum(x) - 7200, 'words') #7200 is the total word count of Features. Subtracting 7200 from the total of the list (x) will give me a 'leftover' word count (what I have to contribute to my section)
 
 
 
